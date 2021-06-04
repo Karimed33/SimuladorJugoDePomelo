@@ -38,7 +38,10 @@ namespace SimuladorJugoDePomelo.Vistas
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtPulpa = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+<<<<<<< HEAD
+=======
             this.btnCerrar = new System.Windows.Forms.PictureBox();
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             this.lbGuardar = new System.Windows.Forms.Label();
             this.pbAgregar = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -49,9 +52,17 @@ namespace SimuladorJugoDePomelo.Vistas
             this.label6 = new System.Windows.Forms.Label();
             this.txtFecha = new System.Windows.Forms.TextBox();
             this.cbVides = new System.Windows.Forms.ComboBox();
+<<<<<<< HEAD
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.label2 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pbAgregar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+=======
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAgregar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             this.SuspendLayout();
             // 
             // label1
@@ -132,6 +143,8 @@ namespace SimuladorJugoDePomelo.Vistas
             this.label5.TabIndex = 9;
             this.label5.Text = "Litros total de Pulpa";
             // 
+<<<<<<< HEAD
+=======
             // btnCerrar
             // 
             this.btnCerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -144,13 +157,18 @@ namespace SimuladorJugoDePomelo.Vistas
             this.btnCerrar.TabIndex = 205;
             this.btnCerrar.TabStop = false;
             // 
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // lbGuardar
             // 
             this.lbGuardar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.lbGuardar.AutoSize = true;
             this.lbGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbGuardar.ForeColor = System.Drawing.Color.White;
+<<<<<<< HEAD
+            this.lbGuardar.Location = new System.Drawing.Point(130, 513);
+=======
             this.lbGuardar.Location = new System.Drawing.Point(114, 426);
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             this.lbGuardar.Name = "lbGuardar";
             this.lbGuardar.Size = new System.Drawing.Size(64, 16);
             this.lbGuardar.TabIndex = 371;
@@ -161,12 +179,20 @@ namespace SimuladorJugoDePomelo.Vistas
             this.pbAgregar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.pbAgregar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pbAgregar.Image = ((System.Drawing.Image)(resources.GetObject("pbAgregar.Image")));
+<<<<<<< HEAD
+            this.pbAgregar.Location = new System.Drawing.Point(134, 454);
+=======
             this.pbAgregar.Location = new System.Drawing.Point(118, 367);
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             this.pbAgregar.Name = "pbAgregar";
             this.pbAgregar.Size = new System.Drawing.Size(59, 56);
             this.pbAgregar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbAgregar.TabIndex = 370;
             this.pbAgregar.TabStop = false;
+<<<<<<< HEAD
+            this.pbAgregar.Click += new System.EventHandler(this.pbAgregar_Click);
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // 
             // pictureBox1
             // 
@@ -253,12 +279,47 @@ namespace SimuladorJugoDePomelo.Vistas
             this.cbVides.TabIndex = 381;
             this.cbVides.SelectionChangeCommitted += new System.EventHandler(this.cbVides_SelectionChangeCommitted);
             // 
+<<<<<<< HEAD
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = global::SimuladorJugoDePomelo.Properties.Resources.cerrar;
+            this.pictureBox2.Location = new System.Drawing.Point(1043, 2);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(35, 29);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 382;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
+            // label2
+            // 
+            this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(252, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(176, 32);
+            this.label2.TabIndex = 383;
+            this.label2.Text = "EXPRIMIDOR";
+            // 
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // Exprimidor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(132)))), ((int)(((byte)(19)))));
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(1080, 610);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.pictureBox2);
+=======
             this.ClientSize = new System.Drawing.Size(1064, 523);
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             this.Controls.Add(this.cbVides);
             this.Controls.Add(this.txtFecha);
             this.Controls.Add(this.label6);
@@ -269,7 +330,10 @@ namespace SimuladorJugoDePomelo.Vistas
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbGuardar);
             this.Controls.Add(this.pbAgregar);
+<<<<<<< HEAD
+=======
             this.Controls.Add(this.btnCerrar);
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             this.Controls.Add(this.txtPulpa);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtUser);
@@ -281,9 +345,15 @@ namespace SimuladorJugoDePomelo.Vistas
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Exprimidor";
             this.Text = "Exprimidor";
+<<<<<<< HEAD
+            ((System.ComponentModel.ISupportInitialize)(this.pbAgregar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+=======
             ((System.ComponentModel.ISupportInitialize)(this.btnCerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbAgregar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -299,7 +369,10 @@ namespace SimuladorJugoDePomelo.Vistas
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.TextBox txtPulpa;
         private System.Windows.Forms.Label label5;
+<<<<<<< HEAD
+=======
         private System.Windows.Forms.PictureBox btnCerrar;
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
         private System.Windows.Forms.Label lbGuardar;
         private System.Windows.Forms.PictureBox pbAgregar;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -310,5 +383,10 @@ namespace SimuladorJugoDePomelo.Vistas
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.ComboBox cbVides;
+<<<<<<< HEAD
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Label label2;
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
     }
 }

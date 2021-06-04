@@ -66,6 +66,15 @@
     <Compile Include="Vistas\Citric.Designer.cs">
       <DependentUpon>Citric.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Vistas\Envasado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Envasado.Designer.cs">
+      <DependentUpon>Envasado.cs</DependentUpon>
+    </Compile>
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
     <Compile Include="Vistas\Exprimidor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -84,11 +93,25 @@
     <Compile Include="Vistas\Logueo.Designer.cs">
       <DependentUpon>Logueo.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Vistas\Pasteurizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Pasteurizador.Designer.cs">
+      <DependentUpon>Pasteurizador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\UserPasteurizador.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Vistas\UserPasteurizador.Designer.cs">
+      <DependentUpon>UserPasteurizador.cs</DependentUpon>
+=======
     <Compile Include="Vistas\Simulador.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Vistas\Simulador.Designer.cs">
       <DependentUpon>Simulador.cs</DependentUpon>
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
     </Compile>
     <Compile Include="Vistas\Usuarios.cs">
       <SubType>Form</SubType>
@@ -109,6 +132,12 @@
     <EmbeddedResource Include="Vistas\Citric.resx">
       <DependentUpon>Citric.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="Vistas\Envasado.resx">
+      <DependentUpon>Envasado.cs</DependentUpon>
+    </EmbeddedResource>
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
     <EmbeddedResource Include="Vistas\Exprimidor.resx">
       <DependentUpon>Exprimidor.cs</DependentUpon>
     </EmbeddedResource>
@@ -118,8 +147,16 @@
     <EmbeddedResource Include="Vistas\Logueo.resx">
       <DependentUpon>Logueo.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="Vistas\Pasteurizador.resx">
+      <DependentUpon>Pasteurizador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\UserPasteurizador.resx">
+      <DependentUpon>UserPasteurizador.cs</DependentUpon>
+=======
     <EmbeddedResource Include="Vistas\Simulador.resx">
       <DependentUpon>Simulador.cs</DependentUpon>
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
     </EmbeddedResource>
     <EmbeddedResource Include="Vistas\Usuarios.resx">
       <DependentUpon>Usuarios.cs</DependentUpon>

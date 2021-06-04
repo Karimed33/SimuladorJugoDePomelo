@@ -52,6 +52,23 @@ namespace SimuladorJugoDePomelo.Vistas
             {
                 btnProduccion.BackColor = Color.FromArgb(26, 32, 40);
             }
+<<<<<<< HEAD
+            else
+            {
+                if (Application.OpenForms["Pasteurizador"] == null)
+                {
+                    btnPasteurizacion.BackColor = Color.FromArgb(26, 32, 40);
+                }
+                else
+                {
+                    if (Application.OpenForms["Envasado"] == null)
+                    {
+                        btnEnvasado.BackColor = Color.FromArgb(26, 32, 40);
+                    }
+                }
+            }
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
         }
 
             private void pbHome_Click(object sender, EventArgs e)
@@ -80,5 +97,20 @@ namespace SimuladorJugoDePomelo.Vistas
             AbrirFormulario<Exprimidor>();
             btnProduccion.BackColor = Color.FromArgb(12, 61, 92);
         }
+<<<<<<< HEAD
+
+        private void btnPasteurizacion_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<Pasteurizador>();
+            btnProduccion.BackColor = Color.FromArgb(12, 61, 92);
+        }
+
+        private void btnEnvasado_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario<Envasado>();
+            btnEnvasado.BackColor = Color.FromArgb(12, 61, 92);
+        }
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
     }
 }

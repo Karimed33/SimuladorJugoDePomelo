@@ -33,6 +33,30 @@ namespace SimuladorJugoDePomelo.Vistas
             this.panelContenedor = new System.Windows.Forms.Panel();
             this.txtFecha = new System.Windows.Forms.TextBox();
             this.txtHora = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.MenuVertical = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pbHome = new System.Windows.Forms.PictureBox();
+            this.panel12 = new System.Windows.Forms.Panel();
+            this.panel11 = new System.Windows.Forms.Panel();
+            this.btnBackup = new System.Windows.Forms.Button();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.btnUsuario = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.btnPassword = new System.Windows.Forms.Button();
+            this.btnSimulador = new System.Windows.Forms.Button();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.btnEnvasado = new System.Windows.Forms.Button();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.btnPasteurizacion = new System.Windows.Forms.Button();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.btnProduccion = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.panelContenedor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.MenuVertical.SuspendLayout();
+=======
             this.MenuVertical = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel11 = new System.Windows.Forms.Panel();
@@ -55,6 +79,7 @@ namespace SimuladorJugoDePomelo.Vistas
             this.panelContenedor.SuspendLayout();
             this.MenuVertical.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbHome)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -97,6 +122,19 @@ namespace SimuladorJugoDePomelo.Vistas
             this.txtHora.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtHora.TextChanged += new System.EventHandler(this.txtHora_TextChanged);
             // 
+<<<<<<< HEAD
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(269, 66);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(463, 298);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
+            // 
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // MenuVertical
             // 
             this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -109,7 +147,11 @@ namespace SimuladorJugoDePomelo.Vistas
             this.MenuVertical.Controls.Add(this.btnUsuario);
             this.MenuVertical.Controls.Add(this.panel8);
             this.MenuVertical.Controls.Add(this.btnPassword);
+<<<<<<< HEAD
+            this.MenuVertical.Controls.Add(this.btnSimulador);
+=======
             this.MenuVertical.Controls.Add(this.btnReporte);
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             this.MenuVertical.Controls.Add(this.panel6);
             this.MenuVertical.Controls.Add(this.btnEnvasado);
             this.MenuVertical.Controls.Add(this.panel5);
@@ -123,6 +165,8 @@ namespace SimuladorJugoDePomelo.Vistas
             this.MenuVertical.Size = new System.Drawing.Size(222, 611);
             this.MenuVertical.TabIndex = 5;
             // 
+<<<<<<< HEAD
+=======
             // panel12
             // 
             this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(132)))), ((int)(((byte)(19)))));
@@ -189,6 +233,7 @@ namespace SimuladorJugoDePomelo.Vistas
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // pictureBox3
             // 
             this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -213,6 +258,25 @@ namespace SimuladorJugoDePomelo.Vistas
             this.pbHome.TabStop = false;
             this.pbHome.Click += new System.EventHandler(this.pbHome_Click);
             // 
+<<<<<<< HEAD
+            // panel12
+            // 
+            this.panel12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(132)))), ((int)(((byte)(19)))));
+            this.panel12.Location = new System.Drawing.Point(0, 453);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(5, 32);
+            this.panel12.TabIndex = 24;
+            // 
+            // panel11
+            // 
+            this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(132)))), ((int)(((byte)(19)))));
+            this.panel11.Location = new System.Drawing.Point(0, 414);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(5, 32);
+            this.panel11.TabIndex = 22;
+            // 
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // btnBackup
             // 
             this.btnBackup.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -230,6 +294,17 @@ namespace SimuladorJugoDePomelo.Vistas
             this.btnBackup.Text = "Backup";
             this.btnBackup.UseVisualStyleBackColor = false;
             // 
+<<<<<<< HEAD
+            // panel10
+            // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(132)))), ((int)(((byte)(19)))));
+            this.panel10.Location = new System.Drawing.Point(0, 374);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(5, 32);
+            this.panel10.TabIndex = 20;
+            // 
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // btnUsuario
             // 
             this.btnUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -248,6 +323,17 @@ namespace SimuladorJugoDePomelo.Vistas
             this.btnUsuario.UseVisualStyleBackColor = false;
             this.btnUsuario.Click += new System.EventHandler(this.btnUsuario_Click);
             // 
+<<<<<<< HEAD
+            // panel8
+            // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(132)))), ((int)(((byte)(19)))));
+            this.panel8.Location = new System.Drawing.Point(0, 335);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(5, 32);
+            this.panel8.TabIndex = 18;
+            // 
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // btnPassword
             // 
             this.btnPassword.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -265,6 +351,32 @@ namespace SimuladorJugoDePomelo.Vistas
             this.btnPassword.Text = "Contraseñas";
             this.btnPassword.UseVisualStyleBackColor = false;
             // 
+<<<<<<< HEAD
+            // btnSimulador
+            // 
+            this.btnSimulador.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
+            this.btnSimulador.FlatAppearance.BorderSize = 0;
+            this.btnSimulador.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(80)))), ((int)(((byte)(200)))));
+            this.btnSimulador.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSimulador.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSimulador.ForeColor = System.Drawing.Color.White;
+            this.btnSimulador.Image = ((System.Drawing.Image)(resources.GetObject("btnSimulador.Image")));
+            this.btnSimulador.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnSimulador.Location = new System.Drawing.Point(3, 335);
+            this.btnSimulador.Name = "btnSimulador";
+            this.btnSimulador.Size = new System.Drawing.Size(217, 32);
+            this.btnSimulador.TabIndex = 17;
+            this.btnSimulador.Text = "Simulador";
+            this.btnSimulador.UseVisualStyleBackColor = false;
+            // 
+            // panel6
+            // 
+            this.panel6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(132)))), ((int)(((byte)(19)))));
+            this.panel6.Location = new System.Drawing.Point(0, 295);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(5, 32);
+            this.panel6.TabIndex = 12;
+=======
             // btnReporte
             // 
             this.btnReporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(32)))), ((int)(((byte)(40)))));
@@ -281,6 +393,7 @@ namespace SimuladorJugoDePomelo.Vistas
             this.btnReporte.TabIndex = 17;
             this.btnReporte.Text = "Reportes";
             this.btnReporte.UseVisualStyleBackColor = false;
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // 
             // btnEnvasado
             // 
@@ -298,6 +411,18 @@ namespace SimuladorJugoDePomelo.Vistas
             this.btnEnvasado.TabIndex = 11;
             this.btnEnvasado.Text = "Envasado";
             this.btnEnvasado.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
+            this.btnEnvasado.Click += new System.EventHandler(this.btnEnvasado_Click);
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(132)))), ((int)(((byte)(19)))));
+            this.panel5.Location = new System.Drawing.Point(0, 256);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(5, 32);
+            this.panel5.TabIndex = 10;
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // 
             // btnPasteurizacion
             // 
@@ -315,6 +440,18 @@ namespace SimuladorJugoDePomelo.Vistas
             this.btnPasteurizacion.TabIndex = 9;
             this.btnPasteurizacion.Text = "Pasteurización";
             this.btnPasteurizacion.UseVisualStyleBackColor = false;
+<<<<<<< HEAD
+            this.btnPasteurizacion.Click += new System.EventHandler(this.btnPasteurizacion_Click);
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(232)))), ((int)(((byte)(132)))), ((int)(((byte)(19)))));
+            this.panel4.Location = new System.Drawing.Point(0, 217);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(5, 32);
+            this.panel4.TabIndex = 8;
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             // 
             // btnProduccion
             // 
@@ -358,8 +495,13 @@ namespace SimuladorJugoDePomelo.Vistas
             this.Text = "Citric";
             this.panelContenedor.ResumeLayout(false);
             this.panelContenedor.PerformLayout();
+<<<<<<< HEAD
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.MenuVertical.ResumeLayout(false);
+=======
             this.MenuVertical.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbHome)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -380,7 +522,11 @@ namespace SimuladorJugoDePomelo.Vistas
         private System.Windows.Forms.Button btnUsuario;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button btnPassword;
+<<<<<<< HEAD
+        private System.Windows.Forms.Button btnSimulador;
+=======
         private System.Windows.Forms.Button btnReporte;
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Button btnEnvasado;
         private System.Windows.Forms.Panel panel5;

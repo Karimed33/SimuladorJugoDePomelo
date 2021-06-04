@@ -118,6 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+<<<<<<< HEAD
+=======
   <data name="btnCerrar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAa8AAAGzCAYAAACYf5jhAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAa
@@ -510,6 +512,7 @@
         8yKEEOI7aF6EEEJ8B82LEEKI76B5EUII8R00L0IIIT6jpvw/WPH9qmRyN50AAAAASUVORK5CYII=
 </value>
   </data>
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
   <data name="pbAgregar.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAAABGdBTUEAALGPC/xhBQAAAiVJREFUaEPt

@@ -41,6 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+    <Compile Include="Modelo\ExprimidorModels.cs" />
+    <Compile Include="Modelo\Pasteurizar.cs" />
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
     <Compile Include="Modelo\Sesion.cs" />
     <Compile Include="Modelo\TipoUsuario.cs" />
     <Compile Include="Modelo\User.cs" />

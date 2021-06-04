@@ -48,6 +48,11 @@
     <Compile Include="Controllers\ConectaBD.cs" />
     <Compile Include="Controllers\ControllerLogueo.cs" />
     <Compile Include="Controllers\ControllerUsuarios.cs" />
+<<<<<<< HEAD
+    <Compile Include="Controllers\ControlllerExprimidor.cs" />
+    <Compile Include="Controllers\Distribuciones.cs" />
+=======
+>>>>>>> 7e5032fc93ef8253c2cbb262cd1d1410a7380917
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
